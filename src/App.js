@@ -22,11 +22,7 @@ function App() {
 ]);
 const showBranch = true;
   return (
-    <div className="App">
-      {/* <Greet name="AlnelFrancis"/>
-      <Welcome/> 
-      <Login />*/}
-            
+    <div className="App">      
       <Routes>
         <Route path='/portfolio' element={<Login />}></Route>
         <Route path='About' element={<About />}></Route>
