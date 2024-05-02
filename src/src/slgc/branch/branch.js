@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './branch.css';
 import { useNavigate } from "react-router-dom";
 
-function Branch(props) {
+function Branch() {
     let history = useNavigate();
+    
     return (
-        <div class="branch_canvas">
-            <div class="branch_header">
-            {props.name}
+        <div class="canvas">
+            <div class="header">
+                Samar Leyte Gass Center Branches
             </div>
         </div>
     )

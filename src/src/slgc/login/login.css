@@ -1,0 +1,53 @@
+.header{
+    background-color: brown;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: calc(4px + 2vmin);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.canvas {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+.textArea{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    background-color: pink;
+}
+.label{
+    display:inline-block;
+    width: 90px;
+    padding-left: 10px;
+    /* background-color: brown; */
+}
+.textbox{
+    display:inline-block;
+    width: 200px;
+    /* background-color: pink; */
+}
+.bottom{
+    background-color: brown;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: calc(10px + 2vmin);
+}

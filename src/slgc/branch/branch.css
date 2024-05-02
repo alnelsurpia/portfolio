@@ -1,12 +1,25 @@
-.canvas {
+.branch_canvas {
     background-color: #282c34;
-    min-height: 100vh;
+    /* min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: white; */
+    padding: 10px;
   }
-  .branch-list{
-    
+  .branch_header{
+    background-color: brown;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    border-radius: 10px;
+    color: white;
+    font-size: calc(4px + 2vmin);
+    font-family: Arial, Helvetica, sans-serif;
   }
